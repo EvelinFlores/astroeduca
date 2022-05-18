@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #1a1717;
+    background-image: url(../fotos/colo.jpg);
+    background-size:cover;
+}
+
+
+.contar{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.log-nav-contar{
+    display: flex;
+    align-items: center;
+
+}
+
+.heder{
+    background-color: #0E304B;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+}
+.heder a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+}
+
+.navion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navion ul li{
+    display: inline-block;
+}
+
+.navion ul li a{
+    display: block;
+    padding: 0.2rem 0.7rem;
+    transition: all 0.4s linear;
+    border-radius: 3px;
+}
+
+.navion ul li a:hover{
+    background-color: #0B4359;
+}
+
+@font-face {
+    font-family: 'Nasa';
+    src: url(../fuents/Nasa.ttf);
+}
+
+@font-face {
+    font-family: 'soft';
+    src: url(../fuents/soft.ttf);
+}
+
+@font-face {
+    font-family: 'alien';
+    src: url(../fuents/aliens\ and\ cows_trial.ttf);
+}
+
+
+@font-face {
+    font-family: 'coco';
+    src: url(../fuents/Cocogoose\ Pro\ Light-trial.ttf);
+}
+
+
+@font-face {
+    font-family: 'siru';
+    src: url(../fuents/Sirukota.ttf);
+}
+
+
+@font-face {
+    font-family: 'mezi';
+    src: url(../fuents/THE\ MEZIRANE.ttf);
+}
+
+.estu{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    font-size: 20px;
+    height: 40vh;
+    float: left;
+}
+
+
+
+
+#es{
+    text-decoration: none;
+    color: #1f5f78;
+    font-family: 'soft';
+    font-size: 35px;
+    width: 85%;
+    max-width: 850px;
+    text-shadow: 1px 3px 0 #000, 4px 2px 0 #000;
+    
+}
+
+
+p{
+    margin-bottom: 1.6em;
+}
+
+#est{
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: justify;
+    float: left;
+    text-shadow: none;
+}
+
+#w{
+    color: rgb(7, 141, 165);
+    font-family: 'soft';
+    font-size: 20px;
+    width: 85%;
+    max-width: 850px;
+    text-shadow: 1px 3px 0 #000, 4px 2px 0 #000;
+}
+
+.mor{
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    width: 85%;
+    max-width: 850px;
+    float: right;
+    
+
+}
+
+.fomy{
+ 
+    background-color: #03090D;
+    width: 244px;
+    height: 377px;
+    float: right;
+    position:absolute; 
+    top: 100px;
+    right: 0;
+}

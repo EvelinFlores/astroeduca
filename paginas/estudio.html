@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Astroeduca</title>
+        <link rel="stylesheet" type="text/css" href="estilos/estudio.css">
+        <link rel="icon" type="image/png" href="logoo.png">
+        <!--FUENTES GOOGLE-->
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="heder">
+            <div class="contar logo-nav-contar">  
+                <a href="#" class="lot"></a>
+                <nav class="navion">
+                    <ul>
+                        <li><a href="/index.html">P&aacute;gina de Inicio</a></li>
+                        <li><a href="/paginas/historia.html">Historia</a></li>
+                        <li><a href="/paginas/sistem.html">Sistema Solar</a></li>
+                        <li><a href="/paginas/galax.html">Galaxias </a></li>
+                        <li><a href="/paginas/agujeros.html">La Vía Láctea</a></li>
+                        <li><a href="/paginas/estudio.html">¿D&oacute;nde estudiar?</a></li>
+                    </ul>
+                </nav> 
+             </div> 
+         </header> 
+
+
+         <div class="estu">
+            <h3 id="es">
+                CDMX
+            <p id="est">
+                El Instituto de Astronomía de la UNAM es la sede principal del Postgrado en Ciencias (Astronomía) de
+            la UNAM. Cuenta con investigadores que trabajan en áreas como: Formación estelar, Medio Interestelar o Astrofísica Estelar.
+        </div>
+         
+        <div class="estu">
+            <h3 id="es">
+                Culiacán
+            <p id="est">
+                Licenciatura en Astronomía (Facultad de Ciencias de la Tierra y el Espacio) 
+                El egresado será capaz de obtener, analizar e interpretar datos astronómicos multifrecuencia. Apoyar el desarrollo de levantamientos geodésicos y topográficos usando marcos de referencia cósmicos. Dirigir y participar en proyectos de investigación para el desarrollo de las ciencias naturales.
+        </div>
+
+        
+        <div class="estu">
+            <h3 id="es">
+                Ensenada
+            <p id="est">
+                El Instituto de Astronomía de la UNAM (Ensenada), se estableció en 1974 con el propósito de apoyar las actividades del Observatorio Astronómico Nacional de San Pedro Mártir B.C. Desde entonces, la sede se ha venido fortaleciendo académicamente. Sus funciones principales son: el desarrollo de Investigación Astronómica, el desarrollo Tecnológico e Instrumental, la Docencia y la Comunicación de la Ciencia.
+        </div>
+        
+    <div class="estu">
+        <h3 id="es">
+            Guadalajara
+        <p id="est">
+            El Instituto de Astronomía y Meteorología de la Universidad de Guadalajara cuenta con el Observatorio de Cuxpala, que es usado como un laboratorio para fines didácticos y educativos y posee telescopios de 0.72 y 0.64 metros. Parte de los miembros pertenecen a la plantilla del postgrado en física donde se imparten cursos de maestría y doctorado. </p>
+    </div>
+
+    <div class="estu">
+        <h3 id="es">
+            Guanajuato
+        <p id="est">
+            El Departamento de Astronomía (DA) de la Universidad de Guanajuato cuenta con 3 grupos de investigación en las áreas de “Estrellas y Formación Estelar”, “Formación y Evolución de Galaxias” y “Cosmología Observacional”.  El DA tiene una biblioteca muy actualizada y un buen sistema de computo. También cuenta con el Observatorio La Luz, con un reflector de 57 cm, para fines de divulgación y como laboratorio de estudiantes.
+        </p>
+    </div>
+
+    <div class="estu">
+        <h3 id="es">
+            Puebla (Tonantzintla)
+        <p id="est">
+            El Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE) investiga una amplia variedad de temas como cosmología, galaxias activas, formación y evolución de galaxias, formación estelar, el medio interestelar, estructura estelar y estrellas compactas, junto con el desarrollo de instrumentación astronómica.        </p>
+        </div>
+
+    <aside class="fomy">
+    <h2 id="w">¿Deseas Recibir más información? </h2>
+
+    <form class="clientes" action="guardar.php" method="POST" id="contact_form" runat="server" enctype="multipart/form-data">
+
+        <label class="mor" for="Nombre">Nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre" maxlenght="30"required ><br>
+
+        <label class="mor" for="Apellidos">Apellidos:</label><br>
+        <input type="text" id="Apellidos" name="Apellidos" maxlenght="60"required ><br><br>
+
+        <label class="mor" for="Email">Email:</label><br>
+        <input type="text" id="Email" name="Email" maxlenght="60"required ><br><br>
+
+        
+        <h4 class="mor">Estado:</h4>
+        <select name="Estado">
+              <option value="">----</option>
+              <option value= "Aguascalientes">Aguascalientes</option>
+              <option value= "Baja California">Baja California</option> 
+              <option value= "CDMX">CDMX</option>
+              <option value= "Chihuahua">Chihuahua</option>  
+              <option value= "Jalisco">Jalisco</option> 
+              <option value= "Nayarit">Nayarit</option>     
+              <option value= "Sinaloa">Sinaloa</option>   
+              <option value= "Quintana Roo">Quintana Roo</option> 
+              <option value= "Zacatecas">Zacatecas</option>  
+
+        </select>
+        <br>
+        <label class="mor" for="Cel">Celular:</label><br>
+        <input type="text" id="Cel" name="Cel" pattern:[a-z] {1-60}  maxlenght="10"required ><br><br>
+              
+              
+        <button class="sumbit" type="sumbit">Enviar Registro</button>
+        </form>
+    </aside>
+    </body
+</html>
